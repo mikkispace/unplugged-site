@@ -97,6 +97,12 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+.content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+}
+
  /*****header footer base styles*****/
 
 header, footer {
@@ -109,79 +115,92 @@ header, footer {
 /* header styles */
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-
+    padding: 15px 0;
 }
+
 header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 }
+
 header figure {
-
+    width: 100%;
 }
+
 .header-divider {
-
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
 }
+
 header nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
-}
-header na {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-content: center;
     flex-flow: row wrap;
+    width: 60%;
 }
+
 header nav ul {
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
+
+header nav li {
+    padding: 5px 35px 5px 10px;
+    list-style: none;
+}
+
 /*Footer */
+
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    flex-direction: column;
 }
+
 .footer content-wrapper {
-    
+    width: 55%;
+    margin: 50px 0;
 }
-.contact {
-    
+
+footer .contact {
+    margin-bottom: 50px; 
+    text-align: center;
 }
-.social {
-    
+
+.social h4 {
+    text-align: center;
 }
 footer .social-icons {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+footer .copyright {
+    margin: 20px 0;
+}
+
 /*****Mobile Styles - Homepage *****/
+
 
 /* Hero Area */
 .hero-area {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-}
-
-.hero-area .content-wrapper {
     
 }
+
 
 /* Aside */
 
@@ -191,14 +210,20 @@ aside {
     align-items: center;
     flex-flow: row wrap;
 }
+
 aside .content-wrapper{
-    
+    margin: 10px 0;
+    padding: 3px 10px;
 }
+
 .form-description {
-    
+    padding: 10px 0;
 }
-.form {
-    
+
+input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 15px 0;
 }
 
 /*Features*/
@@ -209,16 +234,27 @@ aside .content-wrapper{
     flex-flow: row wrap;
 }
 
-.features .content-wrapper {
-    
+.features h2 {
+    margin-bottom: 60px;
 }
 
-.feature-items {
+.features .feature-items {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
+
+.features article {
+    width: 55%;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.features p {
+    margin: 0;
+}
+
 .location-info{
     
 }
@@ -246,14 +282,13 @@ aside .content-wrapper{
     justify-content: center;
     flex-flow: row wrap;
 }
-.reviews .content-wrapper {
-    
+
+.review h2 {
+    margin-bottom: 40px;
 }
-.review-details {
-    
-}
-.team-date{
-    
+.team-date h3 {
+    width: 55%;
+    margin: 20px 0;
 }
 
 /**************** About Page ******************/
@@ -264,8 +299,16 @@ aside .content-wrapper{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 50px 0;
 }
 
+.mission-content {
+    margin: 20px 0;
+}
+
+.mission-content p {
+    margin: 0;
+}
 
 
 /* Map */
@@ -281,6 +324,9 @@ aside .content-wrapper{
     flex-flow: row wrap;
 }
 
+.general-info facilitator-info p {
+    margin: 0;
+}
 
 
 
@@ -289,6 +335,7 @@ aside .content-wrapper{
 faqs {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-flow: row wrap;
 }
 
@@ -297,8 +344,20 @@ faqs .content-wrapper {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 50px 0 0 0;
 }
 
+faqs h1 {
+    margin-bottom: 50px;
+}
+
+faqs h2 {
+    margin-bottom: 20px;
+}
+
+faqs p {
+    margin-bottom: 50px;
+}
 
 /* ==========================================================================
    Helper classes
