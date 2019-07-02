@@ -192,6 +192,7 @@ footer .social-icons p {
 
 footer .copyright {
     margin: 20px 0;
+    text-align: center;
 }
 
 /*****Mobile Styles - Homepage *****/
@@ -229,6 +230,7 @@ aside .content-wrapper{
 .features {
     display: flex;
     justify-content: center;
+    align-content: center;
     flex-flow: row wrap;
 }
 
@@ -249,9 +251,8 @@ aside .content-wrapper{
 .features .feature-items {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-flow: column;
-}
+    align-items: column;
+    }
 
 .features p {
     margin: 0;
@@ -313,7 +314,9 @@ aside .content-wrapper{
 .contact-content p {
     margin: 0;
 }
-
+.facilitator-info {
+    width: 45%;
+}
 
 
 /**************** FAQ Page ********************/
@@ -475,7 +478,11 @@ aside .content-wrapper{
     }
     
     /*Features */
+    
     .features .feature-items {
+        display: flex;
+        justify-content: center;
+        align-content: center;
         flex-flow: row wrap;
     }
     
@@ -487,8 +494,6 @@ aside .content-wrapper{
         flex-basis: 50%;
         padding: 0;       
     }
-    
-    
     
     .features .features-item-description {
         width: 60%;
@@ -505,30 +510,41 @@ aside .content-wrapper{
         width: 49%;
     }
     
+    
     /*Footer */
+        
     footer .content-wrapper {
-        width: 65%;
+        max-width: 640px;
         margin: 100px 0;
     }
+    
     .footer-content {
         display: flex;
         justify-content: space-between;
-        align-items: center;
-    }
+        align-content: center;
+}
+    
     footer .contact {
         margin-bottom: 0;
     }
+    footer .social {
+        margin-bottom: 0;
+    }
+    
     footer .copyright {
         width: 100%;
     }
-    /**About Page**/
+    
+    
+    
+    /******About Page******/
     .mission-content {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     .mission-content p {
-        width: 40%;
+        width: 45%;
     }
     .contact-section .content-wrapper h2 {
         width: 80%;
@@ -538,8 +554,12 @@ aside .content-wrapper{
         justify-content: space-between;
         align-items: flex-start;
     }
+    .gen-info .facilitator-info {
+        width: 50%;
+    }
     
-    /**FAQ Page**/
+    
+    /******FAQ Page******/
     .faq .content-wrapper {
         justify-content: space-between;
     }
