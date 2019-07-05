@@ -107,6 +107,7 @@ body {
     font-family: 'Open Sans', sans-serif; 
     font-size: 1em;
     color: #e2e3ed;
+    background: #202322;
 }
 
 ul, ol {
@@ -150,6 +151,14 @@ address {
     font-family: 'Open Sans', sans-serif; 
     font-size: .875em;
     line-height: 1.125em;
+}
+
+aside, .faq, .mission {
+    background: #527158;
+}
+
+.reviews, .contact-section {
+    background: #2a423a;
 }
 
 .content-wrapper {
@@ -215,6 +224,8 @@ header nav ul {
 
 header nav li {
     list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /*Footer */
@@ -235,6 +246,7 @@ footer p {
 footer .contact {
     margin-bottom: 50px;
     text-align: center;
+    font-style: normal;
 }
 
 .social h4 {
@@ -369,11 +381,15 @@ aside .content-wrapper{
     flex-flow: row wrap;
 }
 
+.contact-content {
+    font-style: normal;
+}
+
 .contact-content p {
     margin: 0;
 }
 .facilitator-info {
-    width: 45%;
+    width: 60%;
 }
 
 
