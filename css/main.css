@@ -140,7 +140,7 @@ p {
 }
 
 img {
-    
+   width: 100%; 
 }
 
 figure {
@@ -160,13 +160,6 @@ aside, .faq, .mission {
 .reviews, .contact-section {
     background: #2a423a;
 }
-
-.content-wrapper {
-    
-}
-
-
-
 
 
 .content-wrapper {
@@ -541,6 +534,17 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 @media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.25em;
+    }
+    h3, h4 {
+        font-size: 1.5em;
+        line-height: 1.665em;
+    }
+    
     .content-wrapper {
         max-width: 640px;
         margin: 100px 0;
@@ -611,9 +615,11 @@ input[type=button] {
         justify-content: space-between;
     }
     .reviews article div {
-        width: 49%;
+        width: 50%;
     }
-    
+    .team-date h3 {
+        width: 100%;
+    }
     
     /*Footer */
         
@@ -660,7 +666,7 @@ input[type=button] {
         justify-content: space-between;
         align-items: flex-start;
     }
-    .gen-info .facilitator-info {
+    .gen-info, .facilitator-info {
         width: 50%;
     }
     
@@ -687,7 +693,24 @@ input[type=button] {
 
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
-     .content-wrapper {
+     h1 {
+        font-size: 3.75em;
+    }
+    h2 {
+        font-size: 2.25em;
+    }
+    h3, h4 {
+        font-size: 1.875em;
+    }
+    p {
+        font-size: 1.125em;
+        line-height: 1.5em;
+    }
+    input (type=button) {
+        font-size: 1.5em;
+    }
+    
+    .content-wrapper {
         max-width: 960px;
         margin: 100px 0;
     }
@@ -731,7 +754,7 @@ input[type=button] {
     }
     
     .contact-section .content-wrapper h2 {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
     
     
@@ -739,7 +762,7 @@ input[type=button] {
     /********FAQ********/
     
     .faq h1 {
-        width: 85%;
+        width: 100%;
     }
     
     .faq h2 {
