@@ -228,6 +228,7 @@ header nav li {
 /*Footer */
 
 footer {
+    text-align: center;
     flex-direction: column;
 }
 
@@ -242,13 +243,10 @@ footer p {
 
 footer .contact {
     margin-bottom: 50px;
-    text-align: center;
     font-style: normal;
 }
 
-.social h4 {
-    text-align: center;
-}
+
 footer .social-icons {
     display: flex;
     justify-content: space-around;
@@ -259,6 +257,15 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #527158;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+footer .social-icons p i {
+    color: #e2e3ed;
+    font-size: 1.125em;
+     
 }
 
 footer .copyright {
@@ -689,7 +696,7 @@ input[type=button] {
         margin-bottom: 0;
     }
     footer .social {
-        width: 50%;
+        width: 40%;
         margin-bottom: 0;
     }
     
