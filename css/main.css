@@ -167,7 +167,7 @@ aside, .faq, .mission {
     margin: 50px 0;
 }
 
- /*****header footer base styles*****/
+ /*****header footer base styles - mobile*****/
 
 header, footer {
     display: flex;
@@ -358,15 +358,14 @@ aside .content-wrapper{
 
 /**************** About Page ******************/
 
-
-
 /* Mission */
+
 .mission {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin: 50px 0;
+    margin: 0;
 }
 
 .contact-section {
@@ -705,6 +704,9 @@ input[type=button] {
     .mission-content p {
         width: 45%;
     }
+    .map figure {
+        padding-bottom: 46.22%;
+    }
     .contact-section .content-wrapper h2 {
         width: 80%;
     }
@@ -764,7 +766,7 @@ input[type=button] {
 
     /**Header**/
      header figure {
-        width: 30%;
+        width: 25%;
     }
     /**Hero**/
     .hero-area h1 {
@@ -812,9 +814,11 @@ input[type=button] {
     .mission h2, .contact-section .contact-wrapper h2 {
         width: 90%;
     }
-    
+    .map figure {
+        padding-bottom: 38%;
+    }
     .contact-section .content-wrapper h2 {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
     }
     
     
