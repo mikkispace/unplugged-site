@@ -597,7 +597,7 @@ input[type=button] {
     header .content-wrapper {
         width: 100%;
         justify-content: space-between;
-        align-items: basline;
+        align-items: center;
     }
     header figure {
         width: 35%;
@@ -642,7 +642,7 @@ input[type=button] {
     .features article {
         display: flex;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         flex-flow: column wrap;
         flex-basis: 50%;
         padding: 0;       
@@ -766,10 +766,7 @@ input[type=button] {
         font-size: 1.125em;
         line-height: 1.5em;
     }
-    input (type=button) {
-        font-size: 1.5em;
-    }
-    
+        
     .content-wrapper {
         max-width: 960px;
         margin: 100px 0;
