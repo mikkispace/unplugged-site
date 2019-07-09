@@ -314,7 +314,7 @@ aside .content-wrapper{
 .features {
     display: flex;
     justify-content: center;
-    align-content: center;
+    flex-flow: row wrap;
     background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat #333;
     background-size: cover;
 }
@@ -324,7 +324,7 @@ aside .content-wrapper{
 
 .features i {
     font-size: 3.75em;
-    margin-bottom: 40px;
+    margin: 0 0 40px 0;
 }
 .features article {
     width: 55%;
@@ -682,7 +682,7 @@ input[type=button] {
     /*Footer */
         
     footer .content-wrapper {
-        max-width: 640px;
+        max-width: 65%;
         margin: 100px 0;
     }
     
@@ -690,14 +690,15 @@ input[type=button] {
         display: flex;
         justify-content: space-between;
         align-content: center;
+        flex-direction: row;
 }
     
     footer .contact {
-        width: 48%;
+        width: 35%;
         margin-bottom: 0;
     }
     footer .social {
-        width: 48%;
+        width: 35%;
         margin-bottom: 0;
     }
     
@@ -714,7 +715,7 @@ input[type=button] {
         align-items: center;
     }
     .mission-content p {
-        width: 45%;
+        width: 40%;
     }
     .map figure {
         padding-bottom: 46.22%;
@@ -728,7 +729,7 @@ input[type=button] {
         align-items: flex-start;
     }
     .gen-info, .facilitator-info {
-        width: 50%;
+        width: 40%;
     }
     
     
@@ -737,14 +738,12 @@ input[type=button] {
         justify-content: space-between;
     }
     .faq-content {
-        flex-basis: 45%;
+        flex-basis: 40%;
     }
     .faq h2 {
         width: 100%;
     }
-    .faq {
-        flex-basis: 100%;
-    }
+    
     
 }
 
@@ -847,7 +846,7 @@ input[type=button] {
     }
     
     .faq-content {
-        flex-basis: 44%;
+        flex-basis: 40%;
     }
     
     
